@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		int flags = Intents.FLAG_ACTIVITY_FORWARD_RESULT.getIntentValue() | Intents.FLAG_ACTIVITY_CLEAR_TASK.getIntentValue();
+		int flags = 0x20000000 | 0x04000000;
 		IntentFlags.print(flags);
 	}
 }
